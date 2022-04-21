@@ -1,0 +1,75 @@
+html,
+body {
+  background-color: $main-color;
+  color: $font-color;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  font-family: $font;
+  transition: background-color 1s ease-in-out;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+::-webkit-scrollbar{
+  display: none; //Block
+  width: 0.5em;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $accent-color;
+  border-radius: 2em;
+  height: 4em;
+} 
+
+
+#button {
+  background-color: $accent-color;
+  color: $main-color;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+#button:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+.text-wrap {
+  h1 {
+    font-size: clamp(3rem, 0.95rem + 0.25vw, 1.25rem);
+  }
+  h1 span {
+    font-weight: bold;
+    color: $accent-color;
+  }
+}
+.text-wrap,
+.button-wrap {
+  transition: all 1s ease-in-out;
+  p {
+    font-size: clamp(1.25rem, 0.5rem + 0.5vw, 1.5rem);
+  }
+  a {
+    color: $accent-color;
+    text-decoration: none;
+  }
+  span {
+    color: $accent-color;
+  }
+}
+.accent span {
+  color: $font-color;
+}
+.text-wrap p a:hover,  span a:hover {
+  text-decoration: underline;
+}

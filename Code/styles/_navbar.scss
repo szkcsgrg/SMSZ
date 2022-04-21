@@ -1,0 +1,16 @@
+nav{
+    background-color: $trans-color;
+    color: $main-color;
+    min-height: 4em; 
+    overflow: hidden; 
+    transition: all 0.5s ease;
+}
+.d-show{
+    visibility: visible;
+    opacity: 1;
+}
+.d-nshow{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}

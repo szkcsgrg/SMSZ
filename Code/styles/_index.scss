@@ -1,0 +1,83 @@
+.welcome {
+  min-height: 100vh;
+  padding-left: 10em;
+  padding-right: 10em;
+  background-image: url("../images/landscape.jpg");
+  background-position: ceneter;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 5000px 5000px 0px $trans-color;
+  color: $main-color;
+}
+.rolunk{
+  min-height: 100vh;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.image{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../images/worker.jpg");
+}
+.kapcsolat{
+  min-height: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.item{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.map{
+  min-height: 90vh;
+  min-width: 100%;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+@media screen and (max-width: $large) {
+  .map{
+    min-height: 60vh;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: $medium) {
+  .welcome{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .rolunk{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .kapcsolat{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .map{
+    min-height: 50vh;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: $small) {
+  .welcome{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .rolunk{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .kapcsolat{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .map{
+    min-height: 40vh;
+    min-width: 100%;
+  }
+}
