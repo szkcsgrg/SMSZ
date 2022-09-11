@@ -1,29 +1,20 @@
 # Sorokmenti Mezőgazdasági Szövetkezet
-_2022.04.20._
-<br /><br />
+*[Website](https://szakacsgergo.com/projects/sorokmenti)* <br>
+*2019 July - 2022 May* <br>
+*Freelance - Website Development, Remote*
 
-## Story
-This project started back in **2019** summer. This was my actual first project. <br /><br />
-I had to create a static webpage for a company. Maybe that was the point where I officialy choose to go that way.<br /><br />
-Back there when I started I just created a folder and put everything inside it.
-I tought maybe it would be a great idea to refresh everything and create a new design. 
-Now I'm here to make it more cleaner and nicer to the customers. 
-<br /><br />
-I created the new design _2022.04.20._ and today I finally finished.
-<br /><br />
+<br>
 
----
-<br />
+## Description
 
-## Contributors
+This project started in the middle of 2019 after I first met with HTML and CSS. After
+learning the basics I had the opportunity to create a website for them.
+For a company, a stunning website is needed. In 2022 we talked about a new design
+concept. A few months later I finished this simple one-page site.
+In the latest version of the page, I used **HTML**, **CSS**, **SASS**, **Bootstrap**, **JavaScript**, and
+**jQuery**.
 
-- Szakács Gerő - <info@szakacsgergo.com>
-<br /><br />
+<br>
 
----
-
-<br />
-
-## Licence & Copyright
-
-© [Szakács Gergő](https://szakacsgergo.com/), [Sorokmenti Mezőgazdasági Szövetkezet](http://www.sorkiszovetkezet.hu/)
+---    
+*[Gergő Szakács](https://szakacsgergo.com/)*
